@@ -32,9 +32,11 @@ O projeto, contido no notebook `notebooks/script.ipynb`, aborda os seguintes pil
 ```
 /
 ├── data/
-│   └── logistica_raw.csv       # Dataset bruto utilizado no exemplo.
+│   └── logistica_raw.csv       # Dataset bruto para ser utilizado no exercicio.
 ├── notebooks/
+│   ├── geradorDataset.ipynb    # Notebook Jupter com o codigo para Gerar o arquivo CSV para o Exercicio.
 │   └── script.ipynb            # Notebook Jupyter com todo o código PySpark.
+│   └── vendas_brutas.csv       # Dataset bruto utilizado no exemplo.
 ├── docker-compose.yml          # Arquivo para orquestrar o ambiente Docker.
 ├── Dockerfile                  # Arquivo de configuração para a imagem Docker.
 └── readme.md                   # Este arquivo.
