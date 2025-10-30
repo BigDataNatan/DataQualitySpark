@@ -81,7 +81,7 @@ Para executar o projeto, utilizamos um ambiente Docker que já contém o Jupyter
 
 > [!IMPORTANT]
 > 5.  **Desligando o Ambiente**:
-    Para parar e remover os containers, execute o seguinte comando no terminal:
-    ```bash
-    docker compose down
-    ```
+>    Para parar e remover os containers, execute o seguinte comando no terminal:
+>    ```bash
+>    docker compose down
+>    ```
