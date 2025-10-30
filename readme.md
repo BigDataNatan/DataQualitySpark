@@ -35,10 +35,11 @@ O projeto, contido no notebook `notebooks/script.ipynb`, aborda os seguintes pil
 │   └── logistica_raw.csv       # Dataset bruto para ser utilizado no exercicio.
 ├── notebooks/
 │   ├── geradorDataset.ipynb    # Notebook Jupter com o codigo para Gerar o arquivo CSV para o Exercicio.
-│   └── script.ipynb            # Notebook Jupyter com todo o código PySpark.
+│   ├── script.ipynb            # Notebook Jupyter com todo o código PySpark.
 │   └── vendas_brutas.csv       # Dataset bruto utilizado no exemplo.
 ├── docker-compose.yml          # Arquivo para orquestrar o ambiente Docker.
 ├── Dockerfile                  # Arquivo de configuração para a imagem Docker.
+├── exercicio.md                # Arquivo com o Desafio para ser feito em aula
 └── readme.md                   # Este arquivo.
 ```
 
@@ -54,7 +55,7 @@ Para executar o projeto, utilizamos um ambiente Docker que já contém o Jupyter
 
 1.  **Clone o Repositório**:
     ```bash
-    git clone [<URL_DO_REPOSITORIO>](https://github.com/AleTavares/dataqualitySpark.git)
+    git clone https://github.com/AleTavares/dataqualitySpark.git
     cd dataqualitySpark
     ```
 
@@ -76,10 +77,11 @@ Para executar o projeto, utilizamos um ambiente Docker que já contém o Jupyter
     *   Abra o arquivo `script.ipynb`.
     *   Execute as células sequencialmente para acompanhar todo o processo de transformação dos dados.
 
-5.  **Desligando o Ambiente**:
+> Com isso, o ambiente estará pronto para você explorar e aprender os conceitos fundamentais de qualidade de dados com PySpark!
+
+> [!IMPORTANT]
+> 5.  **Desligando o Ambiente**:
     Para parar e remover os containers, execute o seguinte comando no terminal:
     ```bash
     docker compose down
     ```
-
-Com isso, o ambiente estará pronto para você explorar e aprender os conceitos fundamentais de qualidade de dados com PySpark!
